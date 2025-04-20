@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>愛の言語タイプ診断</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📝 愛の言語タイプ診断</h1>
+  <p>当てはまるものにチェックを入れてください（複数可）</p>
+  <form id="loveLangForm">
+    <fieldset>
+      <legend>あなたが「されると嬉しい」と感じる行動は？</legend>
+      <label><input type="checkbox" name="lang" value="words"> 言葉で気持ちを伝えてくれる</label><br>
+      <label><input type="checkbox" name="lang" value="time"> 一緒にゆっくり過ごしてくれる</label><br>
+      <label><input type="checkbox" name="lang" value="gift"> プレゼントをくれる</label><br>
+      <label><input type="checkbox" name="lang" value="act"> 家事や手伝いをしてくれる</label><br>
+      <label><input type="checkbox" name="lang" value="touch"> 手をつないだりスキンシップがある</label><br>
+    </fieldset>
+    <button type="button" onclick="checkLoveLang()">診断する</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
